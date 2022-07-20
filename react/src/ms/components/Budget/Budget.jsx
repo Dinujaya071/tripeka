@@ -1,5 +1,6 @@
 import React from 'react';
 import UserList from './UserList';
+import ApexChart from './ApexChart';
 
 const Budget = () => {
     return (
@@ -61,10 +62,12 @@ const Budget = () => {
                     </div>
                 </div>
                 <div className="first-row-row3">
-                    <UserList />
                 </div>
             </div>
-            <div className="second-row">2 </div>
+            {/* barcharts starts here */}
+            <div className="second-row">2
+            {/* <ApexChart /> */}
+            </div>
             <div className="third-row">
                 <div className="third-row-col1">31</div>
                 <div className="third-row-col2">32</div>
